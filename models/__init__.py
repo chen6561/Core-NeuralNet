@@ -3,11 +3,11 @@ from .mlp import MLP
 # 后续添加CNN/Transformer/ViT后，在这里补充：
 from .cnn import CNN
 from .transformer import Transformer
-# from .vit import ViT
+from .vit import ViT
 
 __all__ = [
     "MLP",
     "CNN",
     "Transformer",
-    # "CNN", "Transformer", "ViT"  # 后续扩展用
+    "ViT"
 ]
